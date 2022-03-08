@@ -1,27 +1,19 @@
-package
+package animal
 
-interface Animal (val nome: String, var idade: String){
+interface Animal (val nome: String, var idade: String) {
 
-    val somCachorro: String
-    val somCavalo: String
-    val somPreguica: String
+    abstract fun som()
 
-        fun correr (){
-            println("Correr")
-        }
-
-        fun subirArvore (){
-            println("Subir na árvore")
-        }
-
-        fun som (){
-            println(somCachorro)
-        }
-        fun som (){
-            println(somCavalo)
-        }
-        fun som (){
-            println(somPreguica)
-        }
-
+    fun correr() {
+        println("Correr")
     }
+
+    fun subirArvore() {
+        println("Subir na árvore")
+    }
+
+}
+
+
+
+

@@ -4,10 +4,12 @@ import Animal
 
 class Cavalo(
     nome: String, idade: Int,
-    somCavalo: String
+    val somCavalo: String
 ) : Animal(nome, idade.toString()) {
 
-
+    fun som (){
+        println(somCavalo)
+    }
     override fun correr(){
         super.correr()
     }

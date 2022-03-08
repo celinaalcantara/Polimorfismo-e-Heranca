@@ -1,4 +1,4 @@
-package Animal
+package abstractClasses
 
 import Animal
 
@@ -7,9 +7,6 @@ open class Cachorro(
     val somCachorro: String
 ) : Animal(nome, idade) {
 
-    fun som(): String{
-        super.som()
-    }
 
     override fun correr(){
         super.correr()
