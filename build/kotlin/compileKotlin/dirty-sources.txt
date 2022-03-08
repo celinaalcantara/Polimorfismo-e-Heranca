@@ -1,0 +1,5 @@
+C:\Users\User\IdeaProjects\Herenca-Kotlin\src\main\kotlin\Main.kt
+C:\Users\User\IdeaProjects\Herenca-Kotlin\src\main\kotlin\Animal.kt
+C:\Users\User\IdeaProjects\Herenca-Kotlin\src\main\kotlin\Cavalo.kt
+C:\Users\User\IdeaProjects\Herenca-Kotlin\src\main\kotlin\Cachorro.kt
+C:\Users\User\IdeaProjects\Herenca-Kotlin\src\main\kotlin\Preguica.kt
