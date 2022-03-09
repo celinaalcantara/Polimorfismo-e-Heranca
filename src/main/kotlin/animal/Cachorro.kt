@@ -1,6 +1,4 @@
-package abstractClasses
-
-import animal.Animal
+package animal
 
 class Cachorro(
     nome: String, idade: Int,
@@ -11,8 +9,8 @@ class Cachorro(
         println(somCachorro)
     }
 
-    override fun correr(){
-        super.correr()
+    fun correr() {
+        println("Correr")
     }
 }
 

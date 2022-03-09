@@ -1,6 +1,6 @@
-import abstractClasses.Cachorro
-import abstractClasses.Cavalo
-import abstractClasses.Preguica
+import animal.Cachorro
+import animal.Cavalo
+import animal.Preguica
 
 fun main() {
 
@@ -13,8 +13,6 @@ fun main() {
     cavalo.som()
 
     preguica.som()
-
-
 
 }
 

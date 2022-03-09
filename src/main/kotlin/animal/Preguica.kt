@@ -1,6 +1,4 @@
-package abstractClasses
-
-import animal.Animal
+package animal
 
 class Preguica(
     nome: String, idade: Int,
@@ -11,7 +9,7 @@ class Preguica(
         println(somPreguica)
     }
 
-    override fun subirArvore() {
-        super.subirArvore()
+    fun subirArvore() {
+        println("Subir na árvore.")
     }
 }
