@@ -1,15 +1,18 @@
 package abstractClasses
 
-import Animal
+import animal.Animal
 
-open class Cachorro(
+class Cachorro(
     nome: String, idade: Int,
     val somCachorro: String
-) : Animal(nome, idade) {
+    ) : Animal(nome, idade) {
 
+    override fun som (){
+        println(somCachorro)
+    }
 
     override fun correr(){
         super.correr()
     }
-
 }
+

@@ -8,7 +8,11 @@ fun main() {
     val cavalo = Cavalo("Jairo", 16, "Hinn in in")
     val preguica = Preguica("Edd", 3, "Aaaaah")
 
+    cachorro.som()
 
+    cavalo.som()
+
+    preguica.som()
 
 
 

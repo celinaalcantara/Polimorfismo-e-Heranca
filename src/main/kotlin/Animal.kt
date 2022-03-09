@@ -1,6 +1,6 @@
 package animal
 
-interface Animal (val nome: String, var idade: String) {
+interface Animal constructor (val nome: String, var idade: Int) {
 
     abstract fun som()
 
@@ -9,7 +9,7 @@ interface Animal (val nome: String, var idade: String) {
     }
 
     fun subirArvore() {
-        println("Subir na árvore")
+        println("Subir na árvore.")
     }
 
 }

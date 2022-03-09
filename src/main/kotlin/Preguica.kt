@@ -1,19 +1,17 @@
 package abstractClasses
 
-import Animal
+import animal.Animal
 
 class Preguica(
     nome: String, idade: Int,
     val somPreguica: String
-) : Animal(nome, idade) {
+    ) : Animal(nome, idade) {
 
-
-    fun som (){
+    override fun som (){
         println(somPreguica)
     }
 
     override fun subirArvore() {
         super.subirArvore()
     }
-
 }

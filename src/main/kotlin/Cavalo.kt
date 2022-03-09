@@ -1,17 +1,17 @@
 package abstractClasses
 
-import Animal
+import animal.Animal
 
 class Cavalo(
     nome: String, idade: Int,
     val somCavalo: String
-) : Animal(nome, idade.toString()) {
+    ) : Animal(nome, idade) {
 
-    fun som (){
+    override fun som (){
         println(somCavalo)
     }
+
     override fun correr(){
         super.correr()
     }
-
 }
